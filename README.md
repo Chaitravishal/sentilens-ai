@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SentiLens AI
+
+**NLP-powered product review analyzer** that extracts sentiment, key aspects, and topic clusters from customer reviews to help buyers make faster, more confident decisions.
+
+🔗 **Live Demo:** [sentilens-ai.vercel.app](https://sentilens-2urkpv8vv-chaitravishals-projects.vercel.app)
+
+---
+
+## Overview
+
+SentiLens AI takes product review data and runs it through a modular NLP pipeline — sentiment classification, aspect-based extraction, and topic modeling — to generate an easy-to-read health score and executive summary for any product, instead of making users read hundreds of raw reviews.
+
+## Features
+
+- **Sentiment Analysis** — DistilBERT-based classification (positive/negative/neutral) with confidence scoring
+- **Aspect-Based Extraction** — Identifies what customers are actually talking about (battery, build quality, price, etc.)
+- **Topic Modeling** — LDA clustering to surface recurring themes across reviews
+- **Visual Verdict** — Health score + summary breakdown per product
+- **Demo Mode** — Pre-loaded sample products for instant exploration without needing live scraping
+
+## Pipeline
+
+1. **URL Parser** — Extracts product identifiers from input URL
+2. **Data Crawling** — Gathers review data
+3. **Transformer Model** — DistilBERT for sentiment/aspect classification
+4. **Data Visualizer** — Aggregates results into charts and scores
+5. **Executive Summary** — Generates a final human-readable verdict
+
+## Tech Stack
+
+- **Framework:** Next.js 16
+- **NLP Model:** DistilBERT (Base, Uncased)
+- **Techniques:** TF-IDF, Latent Dirichlet Allocation (LDA)
+- **Deployment:** Vercel
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it locally.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Status
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This is an academic/portfolio project demonstrating an end-to-end NLP pipeline. Demo products use pre-computed results; live URL analysis is in active development.
 
-## Learn More
+## Author
 
-To learn more about Next.js, take a look at the following resources:
+Chaitra D Murthy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
