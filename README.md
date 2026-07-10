@@ -46,6 +46,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it locally.
 
 This is an academic/portfolio project demonstrating an end-to-end NLP pipeline. Demo products use pre-computed results; live URL analysis is in active development.
 
+ScreenShot
+<img width="636" height="293" alt="image" src="https://github.com/user-attachments/assets/614cb183-5052-415e-92e6-85e649d0f484" />
+<img width="346" height="275" alt="image" src="https://github.com/user-attachments/assets/7036d2a3-040a-4823-9355-6d25fdb304e1" />
+<img width="638" height="295" alt="image" src="https://github.com/user-attachments/assets/6a7a7a14-3637-417a-a147-62e788c05d38" />
+<img width="626" height="215" alt="image" src="https://github.com/user-attachments/assets/feb2b417-cd62-403e-b386-e6a38789de91" />
+<img width="611" height="233" alt="image" src="https://github.com/user-attachments/assets/68a62ebd-4a6a-4140-a459-29d926e24e6e" />
+<img width="634" height="290" alt="image" src="https://github.com/user-attachments/assets/6177dbaa-266c-47a8-86f3-0ddfc45b8490" />
+
+
+
+
+
+
+
 ## Author
 
 Chaitra D Murthy
