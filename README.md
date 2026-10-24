@@ -2,7 +2,7 @@
 
 **NLP-powered product review analyzer** that extracts sentiment, key aspects, and topic clusters from customer reviews to help buyers make faster, more confident decisions.
 
-🔗 **Live Demo:** [sentilens-ai.vercel.app](https://sentilens-2urkpv8vv-chaitravishals-projects.vercel.app)
+🔗 **Live Demo:** [sentilens-ai.vercel.app](https://sentilens-f1hr4hkq3-chaitravishals-projects.vercel.app/)
 
 ---
 
